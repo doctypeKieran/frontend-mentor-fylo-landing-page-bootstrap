@@ -1,0 +1,79 @@
+/* Google Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Universal Font */
+body {
+    font-family: "Open Sans", sans-serif;
+    color: hsl(243, 87%, 12%);
+}
+
+/* Font for specific elements */
+h1, h2, h3, h4, h5, h6, header, nav, button {
+    font-family: "Raleway", sans-serif;
+}
+
+/* General styles */
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Colors: text */
+
+.text-color-dark-blue {
+    color: hsl(243, 87%, 12%);
+}
+
+.text-color-desaturated-blue {
+    color: hsl(238, 22%, 44%);
+}
+
+.text-color-light-gray-blue {
+    color: hsl(240, 75%, 98%);
+}
+
+.text-color-light-gray {
+    color: hsl(0, 0%, 75%);
+}
+
+/* Colors: background */
+
+.bg-desaturated-blue {
+    background-color: hsl(238, 22%, 44%);
+}
+
+.bg-dark-blue {
+    background-color: hsl(243, 87%, 12%);
+}
+
+.bg-bright-blue {
+    background-color: hsl(224, 93%, 58%);
+}
+
+.bg-cyan {
+    background-color: hsl(170, 45%, 43%);
+}
+
+/* Header and Navbar Styles */
+nav.navbar {
+    margin-bottom: 100px;
+}
+
+.navbar-brand__logo {
+    width: 100px;
+}
+
+nav#fylo-navbar.navbar {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: hsl(243, 87%, 12%);
+}
+
+/* Media queries */
+
