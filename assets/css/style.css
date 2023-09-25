@@ -275,4 +275,16 @@ footer {
     .footer__socials-group {
         align-items: flex-start;
     }
+
+    section {
+        text-align: left;
+    }
+
+    .section-img-container {
+        order: 1;
+    }
+
+    .stay-productive__quotes-container {
+        width: 50%;
+    }
 }
