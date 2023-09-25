@@ -269,3 +269,10 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+    .footer__socials-group {
+        align-items: flex-start;
+    }
+}
