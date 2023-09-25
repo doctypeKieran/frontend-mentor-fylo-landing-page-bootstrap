@@ -182,3 +182,20 @@ nav#fylo-navbar.navbar {
     font-size: 10px;
     color: hsl(238, 22%, 44%);
 }
+
+/* Bottom CTA Styles */
+.bottom-cta {
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(240, 75%, 98%);
+    padding: 40px;
+}
+
+.bottom-cta h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section.bottom-cta {
+    margin-bottom: 0;
+}
